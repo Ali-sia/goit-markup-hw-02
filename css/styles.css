@@ -17,8 +17,15 @@ font-style: normal; */
 /* текст лого (футер): синий - 2196F3 , белій - FFFFFF */
 /* тект (почта телефон)(футер): rgba(255, 255, 255, 0.6); */
 
+:root {
+  --primary-text-colour: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+}
+
 body {
   background-color: #ffffff;
+  color: var(--primary-text-colour);
 }
 
 .list {
@@ -27,16 +34,25 @@ body {
 
 /*Навигация сайта*/
 .site-nav .link {
-  color: #212121;
+  color: var(--title-text-color);
 }
 
 .site-nav .link:hover,
 .site-nav .link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
+}
+
+/* logo */
+.logo {
+  color: #000000;
+}
+
+.logo-word {
+  color: var(--accent-color);
 }
 
 /*hero section*/
-
+/* #TODO: replace colors for var */
 .hero {
   background-color: #2f303a;
 }
@@ -46,7 +62,16 @@ body {
 }
 
 /* section */
-
 .section-title {
-  color: #212121;
+  color: var(--title-text-color);
+}
+
+/* features */
+.feature-list .title {
+  color: var(--title-text-color);
+}
+
+/* team */
+.team-list .title {
+  color: var(--title-text-color);
 }
