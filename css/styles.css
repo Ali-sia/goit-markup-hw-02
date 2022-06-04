@@ -68,7 +68,7 @@ body {
   color: var(--black-text-color);
 }
 
-.logo-word {
+.logo .logo-word {
   color: var(--accent-color);
 }
 
@@ -112,13 +112,18 @@ body {
   color: var(--accent-color);
 }
 
-.button.hero-button {
+.button.primary {
   background-color: var(--accent-color);
   color: var(--white-text-color);
 }
 
+.button.secondary {
+  background-color: var(--white-text-color);
+  color: var(--accent-color);
+}
+
 /* footer */
-.addres {
+.footer {
   background-color: var(--dark-bgc);
 }
 
@@ -133,4 +138,8 @@ body {
 .addres .addres-link:hover,
 .addres .addres-link:focus {
   color: var(--footer-hover-color);
+}
+
+.footer .logo {
+  color: var(--white-text-color);
 }
