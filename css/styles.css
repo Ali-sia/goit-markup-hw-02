@@ -19,13 +19,20 @@ font-style: normal; */
 
 :root {
   --primary-text-color: #757575;
-  --second-text-color: #ffffff;
+  --white-text-color: #ffffff;
   --title-text-color: #212121;
+  --black-text-color: #000000;
   --accent-color: #2196f3;
 }
 
+/*
+
+#TODO add class to portfolio.html (headers)
+
+*/
+
 body {
-  background-color: #ffffff;
+  background-color: var(--white-text-color);
   color: var(--primary-text-color);
 }
 
@@ -43,9 +50,18 @@ body {
   color: var(--accent-color);
 }
 
+.site-auto .link {
+  color: var(--primary-text-color);
+}
+
+.site-auto .link:hover,
+.site-auto .link:focus {
+  color: var(--accent-color);
+}
+
 /* logo */
 .logo {
-  color: #000000;
+  color: var(--black-text-color);
 }
 
 .logo-word {
@@ -53,13 +69,12 @@ body {
 }
 
 /*hero section*/
-/* #TODO: replace colors for var */
 .hero {
   background-color: #2f303a;
 }
 
 .hero-title {
-  color: var(--second-text-color);
+  color: var(--white-text-color);
 }
 
 /* section */
@@ -77,9 +92,18 @@ body {
   color: var(--title-text-color);
 }
 
-/* button */
+/* portfolio photo */
+.portfolio-list .title {
+  color: var(--title-text-color);
+}
 
+/* button */
 .button {
+  background-color: var(--white-text-color);
+  color: var(--accent-color);
+}
+
+.button.hero-button {
   background-color: var(--accent-color);
-  color: var(--second-text-color);
+  color: var(--white-text-color);
 }
