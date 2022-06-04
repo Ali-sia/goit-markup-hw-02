@@ -18,14 +18,15 @@ font-style: normal; */
 /* тект (почта телефон)(футер): rgba(255, 255, 255, 0.6); */
 
 :root {
-  --primary-text-colour: #757575;
+  --primary-text-color: #757575;
+  --second-text-color: #ffffff;
   --title-text-color: #212121;
   --accent-color: #2196f3;
 }
 
 body {
   background-color: #ffffff;
-  color: var(--primary-text-colour);
+  color: var(--primary-text-color);
 }
 
 .list {
@@ -58,7 +59,7 @@ body {
 }
 
 .hero-title {
-  color: #ffffff;
+  color: var(--second-text-color);
 }
 
 /* section */
@@ -74,4 +75,11 @@ body {
 /* team */
 .team-list .title {
   color: var(--title-text-color);
+}
+
+/* button */
+
+.button {
+  background-color: var(--accent-color);
+  color: var(--second-text-color);
 }
