@@ -18,6 +18,17 @@ font-style: normal; */
 /* тект (почта телефон)(футер): rgba(255, 255, 255, 0.6); */
 /* цвет фона футер: 2F303A */
 
+/* 
+logo: font-family: 'Raleway'; 700
+nav: font-family: 'Roboto'; 500
+h1: font-family: 'Roboto'; 900
+button primary: font-family: 'Roboto'; 700
+button secondary: font-family: 'Roboto'; 500
+h2: font-family: 'Roboto'; 700
+p: font-family: 'Roboto'; 400
+h3: font-family: 'Roboto'; 500
+*/
+
 :root {
   --primary-text-color: #757575;
   --white-text-color: #ffffff;
