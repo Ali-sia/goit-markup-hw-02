@@ -54,6 +54,10 @@ body {
   color: var(--accent-color);
 }
 
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
 .site-auto .link {
   color: var(--primary-text-color);
 }
