@@ -94,7 +94,7 @@ a {
 
 /* TODO link in footer don`t change color on :hover */
 /* logo */
-.logo {
+/* .logo {
   color: var(--accent-color);
 
   font-family: 'Raleway', sans-serif;
@@ -103,17 +103,35 @@ a {
   line-height: 1.19;
 }
 
-/* .logo .logo-word {
-  color: var(--accent-color);
-} */
-
-.second-word {
+.logo .second-word {
   color: var(--black-text-color);
 }
 
 .logo:hover,
-.logo:focus {
+.logo:focus,
+.logo .second-word {
   color: var(--footer-hover-color);
+} */
+
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+.first-word {
+  color: var(--accent-color);
+}
+.second-word {
+  color: var(--black-text-color);
+}
+.logo:hover > span,
+.logo:focus > span {
+  color: var(--footer-hover-color);
+}
+/* decoration fof logo in footer */
+.footer .second-word {
+  color: var(--white-text-color);
 }
 
 /*hero section*/
