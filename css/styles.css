@@ -95,7 +95,7 @@ a {
 /* TODO link in footer don`t change color on :hover */
 /* logo */
 .logo {
-  color: var(--black-text-color);
+  color: var(--accent-color);
 
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -103,8 +103,12 @@ a {
   line-height: 1.19;
 }
 
-.logo .logo-word {
+/* .logo .logo-word {
   color: var(--accent-color);
+} */
+
+.second-word {
+  color: var(--black-text-color);
 }
 
 .logo:hover,
@@ -240,6 +244,7 @@ button {
 /* footer */
 .footer {
   background-color: var(--dark-bgc);
+  color: var(--white-text-color);
 }
 
 .addres {
@@ -248,9 +253,9 @@ button {
   line-height: 1.71;
 }
 
-.addres .addres-text {
+/* .addres .addres-text {
   color: var(--white-text-color);
-}
+} */
 
 .addres .addres-link {
   color: var(--footer-link-color);
@@ -261,6 +266,6 @@ button {
   color: var(--footer-hover-color);
 }
 
-.footer .logo {
+/* .footer .logo {
   color: var(--white-text-color);
-}
+} */
