@@ -38,6 +38,7 @@ h3: font-family: 'Roboto'; 500
   --footer-link-color: rgba(255, 255, 255, 0.6);
   --footer-hover-color: rgba(33, 150, 243, 0.6);
   --dark-bgc: #2f303a;
+  --button-navigation-color: #f5f4fa;
 }
 
 /*
@@ -62,11 +63,6 @@ a {
 
 .list {
   list-style: none;
-
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
 }
 
 /*Навигация сайта*/
@@ -92,27 +88,7 @@ a {
   color: var(--accent-color);
 }
 
-/* TODO link in footer don`t change color on :hover */
-/* logo */
-/* .logo {
-  color: var(--accent-color);
-
-  font-family: 'Raleway', sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-}
-
-.logo .second-word {
-  color: var(--black-text-color);
-}
-
-.logo:hover,
-.logo:focus,
-.logo .second-word {
-  color: var(--footer-hover-color);
-} */
-
+/* logo decorstion */
 .logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -160,6 +136,13 @@ a {
   text-align: center;
 }
 
+.section-title .title {
+}
+/* font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em; */
+
 /* features */
 .feature-list .title {
   color: var(--title-text-color);
@@ -172,14 +155,13 @@ a {
 
 .feature-list .text {
   font-size: 14px;
-  line-height: 1.7;
+  line-height: 1.71;
+  font-weight: 400;
+  letter-spacing: 0.03em;
 }
 
-/* TODO same properties */
 /* team */
 .team-list {
-  font-size: 16px;
-  line-height: 1.19;
   text-align: center;
 }
 
@@ -187,6 +169,8 @@ a {
   color: var(--title-text-color);
 
   font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
 }
 
 /* portfolio photo  */
@@ -221,7 +205,7 @@ button {
 
 .button {
   background-color: var(--white-text-color);
-  color: var(--accent-color);
+  color: var(--black-text-color);
 
   font-weight: 500;
   font-size: 16px;
@@ -249,14 +233,14 @@ button {
 }
 
 .button.secondary {
-  background-color: var(--white-text-color);
-  color: var(--accent-color);
+  background-color: var(--button-navigation-color);
+  color: var(--black-text-color);
 }
 
 .button.secondary:hover,
 .button.secondary:focus {
   background-color: var(--accent-color);
-  color: var(--white-text-color);
+  color: var(--button-navigation-color);
 }
 
 /* footer */
